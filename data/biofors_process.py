@@ -5,13 +5,14 @@ import shutil
 import cv2
 import numpy
 
-cls_json = "/home/hdd1/share/public_data/biofors/annotation_files/classification.json"
-idd_json = "/home/hdd1/share/public_data/biofors/annotation_files/idd_gt.json"
-cstd_json = "/home/hdd1/share/public_data/biofors/annotation_files/cstd_gt.json"
+# cls_json = "/home/hdd1/share/public_data/biofors/annotation_files/classification.json"
+cls_json = "../dataset/BioFors/annotation_files/classification.json"
+idd_json = "../dataset/BioFors/annotation_files/idd_gt.json"
+cstd_json = "../dataset/BioFors/annotation_files/cstd_gt.json"
 auth_dir = "/home/hdd1/share/public_data/bio_imd_2023/biofors/auth"
 mask_dir = "/home/hdd1/share/public_data/bio_imd_2023/biofors/mask"
 cstd_dir = "/home/hdd1/share/public_data/bio_imd_2023/biofors/cstd"
-biofors_dir = "/home/hdd1/share/public_data/biofors"
+biofors_dir = "../dataset/BioFors"
 new_dir = ""
 
 cls_dict = {

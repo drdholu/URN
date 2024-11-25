@@ -1,6 +1,5 @@
-from ..URN.coarse_net import get_coarse_net
-from ..URN.fine_net import get_fine_net
-
+from URN.coarse_net import get_coarse_net
+from URN.fine_net import get_fine_net
 
 def get_model(hyper_para):
     """
